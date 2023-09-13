@@ -59,7 +59,7 @@ export function App() {
             </div>
 
             <Button type="submit" className="w-full">
-              Carregar Video 
+              Carregar Video
               <Upload className="w-4 h-4 ml-2" />
             </Button>
 
@@ -70,11 +70,11 @@ export function App() {
 
           <form className="space-y-6">
 
-          <div className="space-y-2">
+            <div className="space-y-2">
               <Label>Prompt</Label>
               <Select>
                 <SelectTrigger>
-                  <SelectValue placeholder="Selecione um Prompt"/>
+                  <SelectValue placeholder="Selecione um Prompt" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="title">Titulo do YouTube</SelectItem>
@@ -100,7 +100,7 @@ export function App() {
 
             <div className="space-y-4">
               <Label>Temperatura</Label>
-              <Slider 
+              <Slider
                 min={0}
                 max={1}
                 step={0.1}
@@ -112,7 +112,7 @@ export function App() {
 
             <Button type="submit" className="w-full">
               Executar
-              <Wand2 className="w-4 h-4 ml-2"/>
+              <Wand2 className="w-4 h-4 ml-2" />
             </Button>
           </form>
         </aside>
